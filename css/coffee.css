@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Roboto', cursive;
+
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.logo_coffee {
+    width: 45px;
+    height: 45px;
+    margin: 5px 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: #fdf9f948;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 10000;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
+
+.nav_list li {
+    margin-left: 10px;
+    margin-right: 70px;
+    text-transform: uppercase;
+}
+
+.nav_list li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #572014dc;
+    font-weight: 900;
+    font-family: monospace;
+    position: relative;
+    z-index: 100000000;
+
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/beansideway_ibg.jpg');
+    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+
+}
+
+.second_page {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.nav_list li a:hover {
+    color: rgb(255, 255, 255);
+
+
+}
+
+.black-text {
+    color: black;
+}
+
+.site_heading {
+    position: absolute;
+    z-index: 100;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-style: normal;
+    top: 47%;
+    left: 34%;
+
+}
+
+.about_text {
+    color: rgb(71, 26, 26);
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.about_desc {
+    width: 80%;
+    height: 70vh;
+    background-color: #e2dddd;
+    border-radius: 15px;
+    display: flex;
+}
+
+.about_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.naturalbeans {
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10%;
+    margin-top: 10px;
+
+}
+
+.second_head {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second_desc {
+    font-size: 18px;
+    text-align: justify;
+    padding: 15px;
+    margin-right: 10px;
+    line-height: 2rem;
+}
+
+.gallary {
+    width: 100%;
+    height: 100vh;
+    background-color: #8e968c;
+    background-image: url("../images/beanssideways.jpg");
+    background-repeat: no-repeat;
+}
+
+.subs {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    padding-top: 90px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+}
+
+.whiteclass {
+    color: white;
+}
+
+
+.subcard {
+    width: 26%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+
+}
+
+.cardsub {
+    padding: 20px;
+    text-align: center;
+    line-height: 2rem;
+
+}
+
+.card_head {
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+.subcard {
+    border: 2px solid white;
+    text-align: center;
+}
+
+.order {
+    padding: 10px 30px;
+    margin-top: 35px;
+    border-radius: 30px;
+    border-color: white;
+    background-color: #e2dddd00;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.order:hover {
+    border-color: black;
+    cursor: pointer;
+
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #8e968c;
+    background-image: url(../images/naturalbeans.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+
+}
+
+.contact_form {
+    width: 30%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.192);
+    margin-top: 50px;
+    margin-right: 70px;
+
+    border-radius: 15px;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+
+
+
+}
+
+.contact-cardone {
+    margin-top: 70px;
+
+
+}
+
+.contact-cardone input {
+    font-size: 20px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: white;
+
+
+}
+
+.contact-cardtwo {
+    margin-top: 20px;
+
+
+}
+
+.contact-cardtwo input {
+    font-size: 20px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: white;
+}
+
+.contact-cardthree {
+    margin-top: 20px;
+
+}
+
+.contact-cardthree textarea {
+    font-size: 15px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: white;
+}
+
+.btn_sent {
+
+    margin-top: 30px;
+
+
+}
+
+.btn_sent button {
+    color: white;
+    padding: 8px 20px;
+    background-color: rgba(255, 255, 255, 0.027);
+    border-radius: 7px;
+    border-color: white;
+    border-style: solid;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.btn_sent button:hover {
+    border-color: black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.footer {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.footerend {
+    width: 100%;
+    height: 300px;
+    background-color: #d1b3a1;
+    position: absolute;
+    bottom: 0;
+
+
+
+}
+
+.footericons {
+    width: 30px;
+    position: absolute;
+    bottom: 5px;
+
+}
+
+.copyright {
+    left: 5px;
+}
+
+.gmailicon {
+    right: 5px;
+
+}
+
+.instagram {
+    right: 45px;
+}
+
+.twitter {
+    right: 85px;
+}
+
+.facebook {
+    right: 125px;
+}
+
+.ullinks {
+    display: inline;
+    position: absolute;
+}
+
+.linksone {
+    top: 60px;
+    right: 550px;
+}
+
+.linkstwo {
+    top: 60px;
+    right: 250px;
+}
+
+.ullinks li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.downarrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    border: 2px solid white;
+    padding: 20px 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.connect{
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    font-weight: 600;
+    font-size: 70px;
+    top: 36%;
+    left: 10%;
+    text-align: center;
+    text-transform: uppercase;
+
+   
+}
+.footercontent{
+    margin: 0 80px;
+    position: absolute;
+    top: 60px;
+    
+   
+    
+
+}
+.footerheader{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 800;
+}
+.footerdesc{
+    font-size:18px;
+    padding: 10px;
+    letter-spacing: 1,5px;
+    word-spacing:4px;
+}
+.logo_footercoffee {
+    width: 95px;
+    height: 95px;
+   margin-top: 59px;
+   margin-left: 99px;
+    
+}
